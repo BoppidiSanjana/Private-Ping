@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Private Ping — Your conversations. Your space.</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div id="auth-screen" class="auth-screen">
+  <div class="auth-brand"><span class="logo">✦</span><div><b>Private Ping</b><small>Your conversations. Your space.</small></div></div>
+  <div class="auth-card">
+    <div class="auth-tabs"><button class="tab active" data-mode="login">Sign in</button><button class="tab" data-mode="register">Create account</button></div>
+    <h1 id="auth-title">Welcome back.</h1><p id="auth-subtitle">Your conversations are waiting.</p>
+    <form id="auth-form">
+      <label id="name-label" class="hidden">Full name<input id="auth-name" autocomplete="name" maxlength="50"></label>
+      <label>Username<input id="auth-username" autocomplete="username" required minlength="3" maxlength="24" placeholder="yourname"></label>
+      <label>Password<input id="auth-password" type="password" autocomplete="current-password" required minlength="8" placeholder="At least 8 characters"></label>
+      <button class="primary full" id="auth-submit">Sign in</button>
+      <div id="auth-error" class="error" role="alert"></div>
+    </form>
+    <div class="secure-note">⌁ Private rooms · Real-time messages · Simple and secure sign-in</div>
+  </div>
+  <div class="auth-footer">PRIVATE PING <span>•</span> CONNECT WITH YOUR PEOPLE</div>
+</div>
+
+<div id="app" class="app hidden">
+  <aside class="sidebar">
+    <div class="brand-row"><span class="logo">✦</span><div><b>Private Ping</b><small>YOUR SPACE, YOUR PEOPLE</small></div><button id="theme-toggle" class="icon-btn" title="Toggle theme">☼</button></div>
+    <div class="profile-strip"><div id="my-avatar" class="avatar">S</div><div class="profile-text"><b id="my-name">You</b><small id="my-username">@username</small></div><button id="profile-btn" class="icon-btn" title="Edit profile">⚙</button></div>
+    <div class="sidebar-actions"><button id="new-chat" class="primary">＋ New chat</button><button id="new-group" class="secondary">＋ Group</button></div>
+    <div class="search-wrap"><span>⌕</span><input id="user-search" placeholder="Search people or chats…" autocomplete="off"></div>
+    <div id="search-results" class="search-results hidden"></div>
+    <div class="list-heading"><span>MESSAGES</span><span id="chat-count">0</span></div>
+    <div id="conversation-list" class="conversation-list"></div>
+    <div class="sidebar-bottom"><span class="online-dot"></span> Messages update in real time <button id="logout" class="text-btn">Log out ↗</button></div>
+  </aside>
+  <main class="main">
+    <section id="empty-state" class="empty-state">
+      <div class="empty-art"><div class="art-bubble bubble-one">Hey! 👋</div><div class="art-bubble bubble-two">You there?</div><div class="art-orbit">✦</div></div>
+      <h1>Good conversations<br><span>start here.</span></h1><p>Find a friend, start a group, and let the conversation flow.</p>
+      <button id="empty-new-chat" class="primary">Start a conversation <span>→</span></button>
+    </section>
+    <section id="chat-view" class="chat-view hidden">
+      <header class="chat-header">
+        <button id="mobile-back" class="icon-btn back-btn" title="Back to chats">←</button>
+        <div id="chat-avatar" class="avatar large">P</div>
+        <div class="chat-heading"><b id="chat-title">Conversation</b><small id="chat-status">Connecting…</small></div>
+        <div class="chat-tools"><button id="search-messages" class="icon-btn" title="Search messages">⌕</button><button id="chat-info" class="icon-btn" title="Conversation details">ⓘ</button></div>
+      </header>
+      <div id="search-bar" class="search-bar hidden"><input id="message-query" placeholder="Find a message…"><button id="run-search" class="secondary">Search</button><button id="close-search" class="icon-btn">×</button></div>
+      <div id="message-list" class="message-list"></div>
+      <div id="typing-indicator" class="typing-indicator"></div>
+      <form id="message-form" class="message-form">
+        <label class="attach-btn" title="Attach image or document">＋<input id="attachment" type="file" hidden accept="image/png,image/jpeg,image/gif,image/webp,application/pdf,text/plain,application/vnd.openxmlformats-officedocument.wordprocessingml.document"></label>
+        <textarea id="message-input" rows="1" maxlength="2000" placeholder="Write a message…" aria-label="Message" disabled></textarea>
+        <button class="send-btn" id="send-btn" type="submit" disabled aria-label="Send message">➤</button>
+      </form><div class="composer-hint">Enter to send · Shift + Enter for a new line</div>
+    </section>
+    <aside id="info-panel" class="info-panel hidden"><button id="close-info" class="icon-btn close-info">×</button><div id="info-avatar" class="avatar huge">P</div><h2 id="info-title">Conversation</h2><p id="info-description">Conversation details</p><div id="info-members"></div></aside>
+  </main>
+</div>
+<div id="toast-root" aria-live="polite"></div>
+<script src="/socket.io/socket.io.js"></script><script src="/app.js"></script>
+</body></html>

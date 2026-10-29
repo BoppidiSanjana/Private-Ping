@@ -1,0 +1,344 @@
+{
+  "users": [
+    {
+      "id": "9386b752-9ccb-4ec7-a50e-21005889e36c",
+      "name": "hello",
+      "username": "hello",
+      "passwordHash": "$2a$12$kI8iaORE4MYjSk8RrYuzvevmV4AufuF8hMEkYbXnSJSbu2STL53XW",
+      "about": "",
+      "createdAt": "2026-10-29T15:46:18.871Z"
+    },
+    {
+      "id": "068ab69a-a885-4af2-991b-df2aa4f57ca9",
+      "name": "koushal pala",
+      "username": "koushalpalagmail.com",
+      "passwordHash": "$2a$12$rQb/u3BiSlguLFLpnP67aeELPkhE1y2mLkog1yXfaRvzy8DDQpWUe",
+      "about": "",
+      "createdAt": "2026-10-29T15:47:26.144Z"
+    },
+    {
+      "id": "7388d8bd-65e5-465e-92e1-8e2534641efd",
+      "name": "Sanjana Boppidi",
+      "username": "boppidisanjana24gmail.c",
+      "passwordHash": "$2a$12$1FNwp7xMYROL1fiQZ5X1sOTbxZqC4BaEoppjHuQOT.73IJ5RzQi8O",
+      "about": "",
+      "createdAt": "2026-10-29T15:51:42.653Z"
+    },
+    {
+      "id": "e2a465dc-97e4-4672-b087-fb3918d3ce32",
+      "name": "Sanjana Boppidi",
+      "username": "sanjanaboppidi",
+      "passwordHash": "$2a$12$5UH8z09Ivb4buzH4uDlbYe8IKtHCVuDU1/rB3mUHSl1GblMtTM0kq",
+      "about": "",
+      "createdAt": "2026-10-29T15:55:29.243Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "d9ee9702-f06f-4f71-9182-767a4775faae",
+      "type": "private",
+      "title": "",
+      "members": [
+        "9386b752-9ccb-4ec7-a50e-21005889e36c",
+        "068ab69a-a885-4af2-991b-df2aa4f57ca9"
+      ],
+      "admins": [],
+      "createdBy": "9386b752-9ccb-4ec7-a50e-21005889e36c",
+      "createdAt": "2026-10-29T15:47:41.093Z"
+    },
+    {
+      "id": "b483d53d-5587-4a5d-915d-369f6684abed",
+      "type": "group",
+      "title": "super7",
+      "members": [
+        "068ab69a-a885-4af2-991b-df2aa4f57ca9",
+        "9386b752-9ccb-4ec7-a50e-21005889e36c"
+      ],
+      "admins": [
+        "068ab69a-a885-4af2-991b-df2aa4f57ca9"
+      ],
+      "createdBy": "068ab69a-a885-4af2-991b-df2aa4f57ca9",
+      "createdAt": "2026-10-29T15:49:28.352Z"
+    },
+    {
+      "id": "03c888c7-2791-4acb-b6e6-06e4fd46d398",
+      "type": "private",
+      "title": "",
+      "members": [
+        "7388d8bd-65e5-465e-92e1-8e2534641efd",
+        "068ab69a-a885-4af2-991b-df2aa4f57ca9"
+      ],
+      "admins": [],
+      "createdBy": "7388d8bd-65e5-465e-92e1-8e2534641efd",
+      "createdAt": "2026-10-29T15:52:25.337Z"
+    },
+    {
+      "id": "45329d91-35f1-4c90-a8c5-610f0c5a57dc",
+      "type": "group",
+      "title": "super7",
+      "members": [
+        "068ab69a-a885-4af2-991b-df2aa4f57ca9",
+        "e2a465dc-97e4-4672-b087-fb3918d3ce32"
+      ],
+      "admins": [
+        "068ab69a-a885-4af2-991b-df2aa4f57ca9"
+      ],
+      "createdBy": "068ab69a-a885-4af2-991b-df2aa4f57ca9",
+      "createdAt": "2026-10-29T15:56:14.094Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "a704c2fd-d6e8-4fc1-b6ca-1390459c1059",
+      "conversationId": "d9ee9702-f06f-4f71-9182-767a4775faae",
+      "senderId": "9386b752-9ccb-4ec7-a50e-21005889e36c",
+      "senderName": "hello",
+      "text": "hello",
+      "attachment": null,
+      "createdAt": "2026-10-29T15:47:44.755Z",
+      "deliveredTo": [],
+      "readBy": [
+        "068ab69a-a885-4af2-991b-df2aa4f57ca9"
+      ]
+    },
+    {
+      "id": "b2e614a2-c87b-49b1-81ea-b2d62805a4a7",
+      "conversationId": "d9ee9702-f06f-4f71-9182-767a4775faae",
+      "senderId": "068ab69a-a885-4af2-991b-df2aa4f57ca9",
+      "senderName": "koushal pala",
+      "text": "how are u",
+      "attachment": null,
+      "createdAt": "2026-10-29T15:47:53.077Z",
+      "deliveredTo": [],
+      "readBy": [
+        "9386b752-9ccb-4ec7-a50e-21005889e36c"
+      ]
+    },
+    {
+      "id": "df2c145a-ee88-4672-a69c-6c7c3b802f4d",
+      "conversationId": "d9ee9702-f06f-4f71-9182-767a4775faae",
+      "senderId": "9386b752-9ccb-4ec7-a50e-21005889e36c",
+      "senderName": "hello",
+      "text": "iam fine",
+      "attachment": null,
+      "createdAt": "2026-10-29T15:48:03.790Z",
+      "deliveredTo": [],
+      "readBy": [
+        "068ab69a-a885-4af2-991b-df2aa4f57ca9"
+      ]
+    },
+    {
+      "id": "6218244d-7f2a-4a2d-8f32-ec677ec157f0",
+      "conversationId": "d9ee9702-f06f-4f71-9182-767a4775faae",
+      "senderId": "068ab69a-a885-4af2-991b-df2aa4f57ca9",
+      "senderName": "koushal pala",
+      "text": "super",
+      "attachment": null,
+      "createdAt": "2026-10-29T15:48:10.559Z",
+      "deliveredTo": [],
+      "readBy": [
+        "9386b752-9ccb-4ec7-a50e-21005889e36c"
+      ]
+    },
+    {
+      "id": "af38bf16-177c-4edb-9f2b-98ce346b0dea",
+      "conversationId": "b483d53d-5587-4a5d-915d-369f6684abed",
+      "senderId": "068ab69a-a885-4af2-991b-df2aa4f57ca9",
+      "senderName": "koushal pala",
+      "text": "hiii",
+      "attachment": null,
+      "createdAt": "2026-10-29T15:49:31.937Z",
+      "deliveredTo": [],
+      "readBy": [
+        "9386b752-9ccb-4ec7-a50e-21005889e36c"
+      ]
+    },
+    {
+      "id": "1534417f-9a68-434a-9905-78263a20f0ad",
+      "conversationId": "03c888c7-2791-4acb-b6e6-06e4fd46d398",
+      "senderId": "068ab69a-a885-4af2-991b-df2aa4f57ca9",
+      "senderName": "koushal pala",
+      "text": "hiii",
+      "attachment": null,
+      "createdAt": "2026-10-29T15:52:28.899Z",
+      "deliveredTo": [],
+      "readBy": [
+        "7388d8bd-65e5-465e-92e1-8e2534641efd"
+      ]
+    },
+    {
+      "id": "f43d32f0-b6a9-42be-a422-6a43b5d3d1c4",
+      "conversationId": "03c888c7-2791-4acb-b6e6-06e4fd46d398",
+      "senderId": "7388d8bd-65e5-465e-92e1-8e2534641efd",
+      "senderName": "Sanjana Boppidi",
+      "text": "hiii",
+      "attachment": null,
+      "createdAt": "2026-10-29T15:52:29.519Z",
+      "deliveredTo": [],
+      "readBy": [
+        "068ab69a-a885-4af2-991b-df2aa4f57ca9"
+      ]
+    },
+    {
+      "id": "5564dd1f-b5bc-4474-bd00-75e1e1612f6e",
+      "conversationId": "03c888c7-2791-4acb-b6e6-06e4fd46d398",
+      "senderId": "068ab69a-a885-4af2-991b-df2aa4f57ca9",
+      "senderName": "koushal pala",
+      "text": "how are u",
+      "attachment": null,
+      "createdAt": "2026-10-29T15:52:35.200Z",
+      "deliveredTo": [],
+      "readBy": [
+        "7388d8bd-65e5-465e-92e1-8e2534641efd"
+      ]
+    },
+    {
+      "id": "ebabd1e6-f3bd-413f-8584-8e3fcf0d25c2",
+      "conversationId": "03c888c7-2791-4acb-b6e6-06e4fd46d398",
+      "senderId": "7388d8bd-65e5-465e-92e1-8e2534641efd",
+      "senderName": "Sanjana Boppidi",
+      "text": "how are u",
+      "attachment": null,
+      "createdAt": "2026-10-29T15:52:35.306Z",
+      "deliveredTo": [],
+      "readBy": [
+        "068ab69a-a885-4af2-991b-df2aa4f57ca9"
+      ]
+    },
+    {
+      "id": "68d2c518-d6ed-4caa-a41d-e11740eacb61",
+      "conversationId": "03c888c7-2791-4acb-b6e6-06e4fd46d398",
+      "senderId": "068ab69a-a885-4af2-991b-df2aa4f57ca9",
+      "senderName": "koushal pala",
+      "text": "iam finer",
+      "attachment": null,
+      "createdAt": "2026-10-29T15:52:41.453Z",
+      "deliveredTo": [],
+      "readBy": [
+        "7388d8bd-65e5-465e-92e1-8e2534641efd"
+      ]
+    },
+    {
+      "id": "b8e49b4d-e20a-433a-bb96-521bd36e3fae",
+      "conversationId": "03c888c7-2791-4acb-b6e6-06e4fd46d398",
+      "senderId": "7388d8bd-65e5-465e-92e1-8e2534641efd",
+      "senderName": "Sanjana Boppidi",
+      "text": "bootist",
+      "attachment": null,
+      "createdAt": "2026-10-29T15:52:54.223Z",
+      "deliveredTo": [],
+      "readBy": [
+        "068ab69a-a885-4af2-991b-df2aa4f57ca9"
+      ]
+    },
+    {
+      "id": "deaccc1b-f507-48be-b9ac-3ab9e1b87a91",
+      "conversationId": "03c888c7-2791-4acb-b6e6-06e4fd46d398",
+      "senderId": "068ab69a-a885-4af2-991b-df2aa4f57ca9",
+      "senderName": "koushal pala",
+      "text": "em doing",
+      "attachment": null,
+      "createdAt": "2026-10-29T15:52:54.501Z",
+      "deliveredTo": [],
+      "readBy": [
+        "7388d8bd-65e5-465e-92e1-8e2534641efd"
+      ]
+    },
+    {
+      "id": "239dcede-86b7-4a12-8a38-35b2c7359629",
+      "conversationId": "03c888c7-2791-4acb-b6e6-06e4fd46d398",
+      "senderId": "068ab69a-a885-4af2-991b-df2aa4f57ca9",
+      "senderName": "koushal pala",
+      "text": "sodhist",
+      "attachment": null,
+      "createdAt": "2026-10-29T15:53:00.491Z",
+      "deliveredTo": [],
+      "readBy": [
+        "7388d8bd-65e5-465e-92e1-8e2534641efd"
+      ]
+    },
+    {
+      "id": "1cf3bda9-7510-4b6f-aa63-7e2fc7678d2e",
+      "conversationId": "b483d53d-5587-4a5d-915d-369f6684abed",
+      "senderId": "9386b752-9ccb-4ec7-a50e-21005889e36c",
+      "senderName": "hello",
+      "text": "dfhbdh",
+      "attachment": null,
+      "createdAt": "2026-10-29T15:54:27.768Z",
+      "deliveredTo": [],
+      "readBy": [
+        "068ab69a-a885-4af2-991b-df2aa4f57ca9"
+      ]
+    },
+    {
+      "id": "766ac05d-7b78-43dd-a005-29df02036cec",
+      "conversationId": "45329d91-35f1-4c90-a8c5-610f0c5a57dc",
+      "senderId": "068ab69a-a885-4af2-991b-df2aa4f57ca9",
+      "senderName": "koushal pala",
+      "text": "hello",
+      "attachment": null,
+      "createdAt": "2026-10-29T15:56:18.149Z",
+      "deliveredTo": [],
+      "readBy": [
+        "e2a465dc-97e4-4672-b087-fb3918d3ce32"
+      ]
+    },
+    {
+      "id": "d249b828-f28b-48d9-a71e-a1db44003adc",
+      "conversationId": "45329d91-35f1-4c90-a8c5-610f0c5a57dc",
+      "senderId": "e2a465dc-97e4-4672-b087-fb3918d3ce32",
+      "senderName": "Sanjana Boppidi",
+      "text": "hii",
+      "attachment": null,
+      "createdAt": "2026-10-29T15:56:20.844Z",
+      "deliveredTo": [],
+      "readBy": [
+        "068ab69a-a885-4af2-991b-df2aa4f57ca9"
+      ]
+    },
+    {
+      "id": "3178240d-cb47-441a-b239-7fc5aee8f4bb",
+      "conversationId": "45329d91-35f1-4c90-a8c5-610f0c5a57dc",
+      "senderId": "068ab69a-a885-4af2-991b-df2aa4f57ca9",
+      "senderName": "koushal pala",
+      "text": "sodhist",
+      "attachment": null,
+      "createdAt": "2026-10-29T15:56:25.777Z",
+      "deliveredTo": [],
+      "readBy": [
+        "e2a465dc-97e4-4672-b087-fb3918d3ce32"
+      ]
+    },
+    {
+      "id": "e855d9f8-3f07-4ecb-8fe1-5182ae72a95a",
+      "conversationId": "45329d91-35f1-4c90-a8c5-610f0c5a57dc",
+      "senderId": "e2a465dc-97e4-4672-b087-fb3918d3ce32",
+      "senderName": "Sanjana Boppidi",
+      "text": "bhoothism",
+      "attachment": null,
+      "createdAt": "2026-10-29T15:56:34.093Z",
+      "deliveredTo": [],
+      "readBy": [
+        "068ab69a-a885-4af2-991b-df2aa4f57ca9"
+      ]
+    },
+    {
+      "id": "e8ed4316-9faa-420f-9f9c-843ce358543e",
+      "conversationId": "45329d91-35f1-4c90-a8c5-610f0c5a57dc",
+      "senderId": "068ab69a-a885-4af2-991b-df2aa4f57ca9",
+      "senderName": "koushal pala",
+      "text": "sodhism",
+      "attachment": {
+        "id": "5993edfc-3831-47e2-9d06-36dea62d34ef",
+        "name": "201409579662_photo.jpg",
+        "type": "image/jpeg",
+        "size": 17437
+      },
+      "createdAt": "2026-10-29T15:56:41.984Z",
+      "deliveredTo": [],
+      "readBy": [
+        "e2a465dc-97e4-4672-b087-fb3918d3ce32"
+      ]
+    }
+  ]
+}
